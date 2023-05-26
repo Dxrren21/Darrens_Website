@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+h1{
+    color:gray;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+header {
+    text-align: center;
+  }
+body {
+    background-color: #EADDCA; /* Brown color in hexadecimal format */
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.photo-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .photo {
+    position: relative;
+    width: 200px; /* Adjust the desired width */
+    height: 200px; /* Adjust the desired height */
+    overflow: hidden;
+  }
+  
+  .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .photo:hover img {
+    transform: scale(1.2); /* Adjust the desired scale factor */
+  }
+  
+  .photo-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity by modifying the last value */
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+  }
+  
+  .photo-overlay h3 {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .photo:hover .photo-overlay {
+    opacity: 1;
+  }
