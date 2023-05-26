@@ -35,6 +35,20 @@ h1{
     margin: 0;
 }
 
+#kpop {
+  background-color: #1a5276; /* Dark Blue color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Add some padding for spacing */
+  color: #fff; /* Text color */
+}
+
+
+#contact {
+  background-color: #A8BFD8; /* Dark Blue color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Add some padding for spacing */
+  color: #fff; /* Text color */
+}
 .about-section {
   background-color: #8B4513;
   color: #fff;
@@ -126,7 +140,7 @@ body {
   }
 
   .highlight {
-    color: blue;
+    color: #C4DAF0;
     font-weight: bold;
   }
 
